@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="theme-color" content="#153e90">
+
+  <!-- <<<<< BOXICONS >>>>> -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- <<<<< CSS >>>>> -->
+  <link rel="stylesheet" href="assets/css/index.css" />
+  <title>Hola soy Omar Anguas</title>
+
+  <!-- <<<<< FAVICON >>>>> -->
+  <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/000000/thor.png" />
+
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div id="loader" class="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <div id="content" class="hidden">
+    <!-- <<<<< NAV >>>>> -->
+    <header class="header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">omaranguas</a>
+        <div class="nav__menu" id="nav-menu">
+
+          <!-- LINKS -->
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">Acerca</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+            <li class="nav__item"><a href="#portfolio" class="nav__link">Portafolio</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+
+          </ul>
+        </div>
+
+        <!-- LIGHT/DARK MODE -->
+        <i class='bx bx-moon change-theme' id=theme-button></i>
+
+        <!-- TOGGLE MENU -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+
+      </nav>
+    </header>
+
+    <!-- <<<<< MAIN >>>>> -->
+    <main class="main">
+      <!-- <<<<< HOME >>>>> -->
+      <section id="home" class="home section bd-container">
+        <div class="home__container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">Mi nombre es<br><span class="home__span">Omar Anguas</span></h1>
+
+            <p class="home__description">
+              Pasante de Ingeniería en Sistemas Computacionales, fanático por la programación con enfoque en desarrollo
+              web y red de computadoras.
+            </p>
+
+            <!-- SOCIAL -->
+            <div class="home__submit">
+              <a href="https://drive.google.com/file/d/1E7DoJ7CjlngvzNADpLBtiL3fs1pQo-is/view?usp=sharing" download
+                class="button" target="_blank">Descargar CV</a>
+              <div class="home__social">
+                <a class="home__link" href="https://www.linkedin.com/in/omaranguas/" target="_blank"><i
+                    class="bx bxl-linkedin home__icon"></i></a>
+                <a class="home__link" href="https://github.com/omaranguas" target="_blank"><i
+                    class="bx bxl-github home__icon"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <img src="https://i.ibb.co/bN12b7Z/02.gif" alt="Animated astronaut" class="home__img">
+        </div>
+      </section>
+
+      <!-- <<<<< ABOUT >>>>> -->
+      <section id="about" class="about section bd-container">
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <h2 class="section__subtitle">Conóceme un poco más</h2>
+            <h2 class="section__title">Eterno autodidacta</h2>
+            <p class="about__description">
+              Soy una persona autodidacta y muy curiosa. Disfruto mucho hacer deporte como el
+              levantamiento de pesas, ver documentales y compartir con los amigos.
+            </p>
+            <a href="#contact" class="button">Saber más</a>
+          </div>
+          <img src="https://i.ibb.co/vkDR4JM/01.gif" alt="Animated face" class="about__img">
+        </div>
+      </section>
+
+      <!-- <<<<< SKILLS >>>>> -->
+      <section id="skills" class="skills section bd-container">
+        <div class="skills__header">
+          <h2 class="section__subtitle">Conocimientos</h2>
+          <p class="skills__quote">
+            "La única habilidad competitiva a largo plazo es la habilidad de
+            aprender."<br><span class="skills__span">Seymour Papert</span>
+          </p>
+        </div>
+        <div class="skills__container bd-grid">
+
+          <!-- FRONTEND -->
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Frontend</h3>
+            <div class="skills__data">
+              <span class="skills__name">Html</span>
+              <span class="skills__number">70%</span>
+              <span class="skills__bar skills__html"></span>
+            </div>
+            <div class="skills__data  ">
+              <span class="skills__name">Css</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__css"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">JavaScript</span>
+              <span class="skills__number">40%</span>
+              <span class="skills__bar skills__javascript"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">Bootstrap</span>
+              <span class="skills__number">20%</span>
+              <span class="skills__bar skills__bootstrap"></span>
+            </div>
+            </di>
+          </div>
+
+          <!-- OPERATING SYSTEMS -->
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Sistemas operativos</h3>
+            <div class="skills__data">
+              <span class="skills__name">Windows</span>
+              <span class="skills__number">70%</span>
+              <span class="skills__bar skills__windows"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">GNU/Linux</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__linux"></span>
+            </div>
+          </div>
+
+          <!-- LEARNING -->
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Aprendiendo</h3>
+            <div class="skills__data">
+              <span class="skills__name">PHP</span>
+              <span class="skills__number">0%</span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">SQL</span>
+              <span class="skills__number">0%</span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">ReactJS</span>
+              <span class="skills__number">0%</span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">Figma</span>
+              <span class="skills__number">0%</span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">AutoCAD</span>
+              <span class="skills__number">0%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <<<<< PORTFOLIO >>>>> -->
+      <section id="portfolio" class="portfolio section bd-container">
+        <h2 class="section__subtitle">Portafolio</h2>
+        <h3 class="section__title">Proyectos realizados</h3>
+        <div class="portfolio__container bd-grid">
+          <div class="portfolio__img">
+            <img src="https://i.ibb.co/3kvzdYW/01.jpg" alt="">
+          </div>
+          <div class="portfolio__img">
+            <img src="https://i.ibb.co/rmpMksG/02.jpg" alt="">
+          </div>
+          <div class="portfolio__img">
+            <img src="https://i.ibb.co/5rtBwQs/06.jpg" alt="">
+          </div>
+          <div class="portfolio__img">
+            <img src="https://i.ibb.co/LxZ71RL/04.jpg" alt="">
+          </div>
+          <div class="portfolio__img">
+            <img src="https://i.ibb.co/Zz1qGYM/05.jpg" alt="">
+          </div>
+          <div class="portfolio__img">
+            <img src="https://i.ibb.co/SyG4P37/03.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- <<<<< EDUCATION >>>>> -->
+      <section class="education section bd-container">
+        <h2 class="section__subtitle">Educación</h2>
+        <h3 class="section__title">Mi formación acádemica</h3>
+        <div class="education__container bd-grid">
+
+          <!-- TIMELINE -->
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2017 - 2021</h3>
+              <span class="education__university">Universidad del Sur<br>Mérida, Yucatán</span>
+            </div>
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+            <div>
+              <h3 class="education__race">Estatus</h3>
+              <span class="education__document">Pasante</span>
+            </div>
+          </div>
+      </section>
+
+      <!-- <<<<< CONTACT >>>>> -->
+      <section id="contact" class="contact section bd-container">
+        <h2 class="section__subtitle">Contactame</h2>
+        <h3 class="section__title">Enviame tus comentarios</h3>
+        <div class="contact__content bd-grid">
+
+          <!-- DATA -->
+          <div class="contact__box">
+            <i class='bx bx-home contact__icon'></i>
+            <h3 class="contact__title">Ubicación</h3>
+            <span class="contact__description">Mérida, Yucatán</span>
+          </div>
+
+          <div class="contact__box">
+            <i class='bx bx-chat contact__icon'></i>
+            <h3 class="contact__title">Chat</h3>
+            <div>
+              <a href="https://api.whatsapp.com/send/?phone=529993298711" class="contact__social" target="_blank"><i
+                  class='bx bxl-whatsapp'></i></a>
+              <a href="https://t.me/omaranguas" class="contact__social" target="_blank"><i
+                  class='bx bxl-telegram'></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <form method="POST" class="contact__form">
+          <div class="contact__inputs">
+            <input type="text" name="name" class="contact__input" placeholder="Nombre(s)"
+              title="Tu nombre solo debe contener letras." required pattern="^[A-Za-z\s]+$">
+
+            <input type="text" name="lastname" class="contact__input" placeholder="Apellido(s)"
+              title="Tu apellido solo debe contener letras." required pattern="^[A-Za-z\s]+$">
+
+            <input type="email" name="email" class="contact__input" placeholder="Correo electrónico"
+              title="Ingresa un correo electrónico válido." required
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
+
+            <input type="tel" name="phone" class="contact__input" placeholder="Teléfono"
+              title="Ingresa un número de teléfono a 10 dígitos." required pattern="^[0-9]{10}$">
+          </div>
+          <textarea name="message" class="contact__input" cols="0" rows="5"
+            placeholder="Comencemos con un nuevo proyecto" title="No debes exceder los 200 caracteres." required
+            data-pattern="^.{1,200}$"></textarea>
+          <input type="submit" class="button contact__button" value="Enviar información">
+          <div class="contact__form-response none"></div>
+        </form>
+      </section>
+    </main>
+
+    <!-- <<<<< FOOTER >>>>> -->
+    <footer class="footer">
+      <div class="footer__container bd-container">
+        <h3 class="footer__title">omaranguas</h3>
+        <p class="footer__description">¡Sígueme en mis redes sociales!</p>
+
+        <!-- SOCIAL ICON -->
+        <div class="footer__social">
+          <a href="https://www.facebook.com/omaranguasventura" class="footer__link" target="_blank"><i
+              class='bx bxl-facebook-circle'></i></a>
+          <a href="https://www.instagram.com/omaranguas/" class="footer__link" target="_blank"><i
+              class='bx bxl-instagram'></i></a>
+          <a href="https://twitter.com/omaranguas" class="footer__link" target="_blank"><i
+              class='bx bxl-twitter'></i></a>
+        </div>
+
+        <p class="footer__copy">2021 &#169 Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- <<<<< SCROLLTOP >>>>> -->
+    <button class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </button>
+  </div>
+
+  <!-- <<<<< JS >>>>> -->
+  <script src="assets/js/index.js" type="module"></script>
+
+</body>
+
+</html>
